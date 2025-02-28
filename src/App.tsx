@@ -9,7 +9,7 @@ function App() {
           there is no connectivity or your device is in airplane mode.
         </p>
         <h1 className="text-xl text-center mt-3 mb-2">iOS PWA</h1>
-        <p>
+        <p className="text-justify">
           If you open a website that is a PWA on the Safari web browser you can
           install it by clicking on the share icon, scrolling down a bit and
           selecting add to home screen.
@@ -30,7 +30,7 @@ function App() {
         <h1 className="text-xl text-center mt-3 mb-2 font-semibold">
           iOS PWA Details
         </h1>
-        <p className="text-justify">Coming Soon ...</p>
+        <p className="text-center">Coming Soon ...</p>
       </div>
     </div>
   );
