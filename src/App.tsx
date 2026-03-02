@@ -26,12 +26,6 @@ function App() {
           provided here.
         </p>
       </div>
-      <div className="max-w-xl mx-auto bg-gray-50 p-3 rounded-xl shadow-lg text-gray-800 mt-2">
-        <h1 className="text-xl text-center mt-3 mb-2 font-semibold">
-          iOS PWA Details
-        </h1>
-        <p className="text-center">Coming Soon ...</p>
-      </div>
     </div>
   );
 }

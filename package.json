@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docker:build": "docker build -t teresahelp_i .",
+    "docker:dev": "docker run --name teresahelp -d -p 8080:80 teresahelp_i",
+    "docker:compose:up": "echo docker compose up -d teresahelp",
+    "docker:compose:restart": "echo docker compose up -d -no-deps teresahelp"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
